@@ -3,14 +3,14 @@ resources:
     type: gitRepo
     integration: bitbucket
     pointer:
-      sourceName: "shiptest-rc-me/sample-script-pub"
+      sourceName: "shiphitchcock1/sample_scriptpub"
       branch: master      
   
   - name: sample-scriptpvt
     type: gitRepo
     integration: bitbucket
     pointer:
-      sourceName: "shiptest-rc-me/sample-script-pvt"
+      sourceName: "shiphitchcock1/sample_scriptpvt"
       branch: master
       
   - name: test-trigger01-pub
