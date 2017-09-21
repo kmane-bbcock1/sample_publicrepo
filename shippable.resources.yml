@@ -25,6 +25,14 @@ resources:
       sourceName: "shippabledocker/pipelinev2"
     seed:
       versionName: "deploy.2"
+  
+  - name: sample_OUTimg_pub
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploy.2"
       
   - name: sample_img_pub123
     type: image
