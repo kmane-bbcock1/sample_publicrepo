@@ -7,7 +7,7 @@ jobs:
       - IN: tr1
       - TASK:
         - script: IN/sample-pub/gitRepo/echo.sh
-      OUT: sample_OUTimg_pub
+      - OUT: sample_OUTimg_pub
     flags: job1
     
   - name: runcliscript-job-pub
